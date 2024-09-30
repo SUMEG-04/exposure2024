@@ -1,0 +1,96 @@
+/* ContactUs.css */
+
+.contact-us-page {
+    padding: 40px 20px;
+    background-color: #f7f9fc; /* Light background for a clean look */
+  }
+  
+  .contact-us-page h1 {
+    color: #1e3a5f; /* Matching the main theme color */
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #28527a; /* Adding a border for emphasis */
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .contact-form-container h2 {
+    color: #1e3a5f;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form .form-group input,
+  .contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .contact-form .form-group textarea {
+    height: 100px;
+  }
+  
+  .contact-form .submit-btn {
+    padding: 10px 20px;
+    background-color: #1e3a5f; /* Main theme color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-form .submit-btn:hover {
+    background-color: #28527a; /* Slightly lighter blue on hover */
+    transform: scale(1.05); /* Subtle hover effect */
+  }
+  
+  .contact-info-container {
+    flex: 0.8;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .thank-you-message h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+    text-align: center;
+  }
+  

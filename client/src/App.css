@@ -1,0 +1,12 @@
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  background-color: #ccc; /* scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8d8b8b; /* scrollbar thumb */
+  border-radius: 20px;
+  border: 3px solid #ccc; /* scrollbar thumb border */
+}

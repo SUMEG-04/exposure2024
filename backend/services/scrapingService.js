@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const getSolvedProblems = async (leetcodeUsername) => {
     let browser;
     try {
-        leetcodeUsername = "YPyKWcCBp6";  // Ensure this is the correct username
+        leetcodeUsername = "sumeg_04";  // Ensure this is the correct username
         console.log(`Attempting to scrape data for user: ${leetcodeUsername}`);
 
         browser = await puppeteer.launch({

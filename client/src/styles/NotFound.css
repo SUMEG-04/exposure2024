@@ -1,0 +1,46 @@
+/* NotFound.css */
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take up the full height of the viewport */
+    text-align: center;
+    background-color: #f7f9fc; /* Light background for a clean look */
+    padding: 20px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 80px;
+    color: #1e3a5f; /* Primary theme color */
+    margin-bottom: 10px;
+  }
+  
+  .not-found-container h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-container p {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 30px;
+  }
+  
+  .home-button {
+    padding: 12px 24px;
+    background-color: #1e3a5f; /* Main theme color for the button */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #28527a; /* Lighter color on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  

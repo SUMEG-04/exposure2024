@@ -1,0 +1,53 @@
+/* SearchBar.css */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* White background for contrast */
+    border: 2px solid #1e3a5f; /* Matches the primary color scheme */
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.3s ease;
+    max-width: 400px; /* Max width to fit well in various layouts */
+  }
+  
+  .search-bar:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover for interactivity */
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333333; /* Dark text color for readability */
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    background-color: #f0f4f8; /* Light background when focused */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #1e3a5f; /* Matches the color scheme for consistency */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #28527a; /* Slightly lighter blue on hover for feedback */
+    transform: scale(1.05); /* Subtle scaling effect on hover */
+  }
+  
+  .search-button i {
+    font-size: 18px;
+  }
+  

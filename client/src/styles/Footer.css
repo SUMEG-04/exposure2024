@@ -1,0 +1,97 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f5ebe0; /* Matches the Navbar color for a consistent theme */
+    color: #000;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid #28527a; /* Adds a border for visual separation */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .footer-about,
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+  }
+  
+  .links-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-link {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #1e3a5f; /* Changes color on hover for feedback */
+  }
+  
+  .footer-email {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .footer-email:hover {
+    color: #1e3a5f; /* Highlights email link on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #1e3a5f; /* Adds a bright color on hover to catch attention */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .footer-bottom-text {
+    font-size: 14px;
+    color: #000;
+  }
+  
